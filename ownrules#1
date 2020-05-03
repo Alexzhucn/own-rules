@@ -4,23 +4,23 @@
 surge_ruleset=DIRECT,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/ConnersHua/Surge/Ruleset/Unbreak.list
 surge_ruleset=🛑 全球拦截,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/NobyDa/Surge/AdRule.list
 surge_ruleset=🛑 全球拦截,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/ConnersHua/Surge/Ruleset/Hijacking.list
-surge_ruleset=📹 YouTube,https://github.com/tindy2013/subconverter/blob/master/base/rules/ConnersHua/Surge/Ruleset/Media/YouTube.list
-surge_ruleset=📹 YouTubeMusic,https://github.com/tindy2013/subconverter/blob/master/base/rules/ConnersHua/Surge/Ruleset/Media/YouTubeMusic.list
-surge_ruleset=🎥 NETFLIX,https://github.com/tindy2013/subconverter/blob/master/base/rules/ConnersHua/Surge/Ruleset/Media/Netflix.list
+surge_ruleset=📹 YouTube,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/ConnersHua/Surge/Ruleset/Media/YouTube.list
+surge_ruleset=📹 YouTubeMusic,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/ConnersHua/Surge/Ruleset/Media/YouTubeMusic.list
+surge_ruleset=🎥 NETFLIX,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/ConnersHua/Surge/Ruleset/Media/Netflix.list
 surge_ruleset=🌍 国外媒体,https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/GlobalMedia.list
-surge_ruleset=🌏 国内媒体,https://github.com/tindy2013/subconverter/blob/master/base/rules/lhie1/Surge/Surge%203/Provider/Domestic.list
-surge_ruleset=📲 电报吹水,https://github.com/tindy2013/subconverter/blob/master/base/rules/ConnersHua/Surge/Ruleset/Telegram.list
-surge_ruleset=🔰 节点选择,https://github.com/tindy2013/subconverter/blob/master/base/rules/ConnersHua/Surge/Ruleset/Global.list
-surge_ruleset=🍎 苹果服务,https://github.com/tindy2013/subconverter/blob/master/base/rules/ConnersHua/Surge/Ruleset/Apple.list
-surge_ruleset=🌏 OneDrive,https://github.com/tindy2013/subconverter/blob/master/base/rules/ConnersHua/Surge/Ruleset/OneDrive.list
-surge_ruleset=DIRECT,https://github.com/tindy2013/subconverter/blob/master/base/rules/ConnersHua/Surge/Ruleset/China.list
-surge_ruleset=DIRECT,https://github.com/tindy2013/subconverter/blob/master/base/rules/NobyDa/Surge/Download.list
+surge_ruleset=🌏 国内媒体,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/lhie1/Surge/Surge%203/Provider/Domestic.list
+surge_ruleset=📲 电报吹水,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/ConnersHua/Surge/Ruleset/Telegram.list
+surge_ruleset=🔰 全球网址,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/ConnersHua/Surge/Ruleset/Global.list
+surge_ruleset=🍎 苹果服务,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/ConnersHua/Surge/Ruleset/Apple.list
+surge_ruleset=🌏 OneDrive,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/ConnersHua/Surge/Ruleset/OneDrive.list
+surge_ruleset=DIRECT,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/ConnersHua/Surge/Ruleset/China.list
+surge_ruleset=DIRECT,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/NobyDa/Surge/Download.list
 surge_ruleset=DIRECT,[]GEOIP,CN
 surge_ruleset=🐟 漏网之鱼,[]FINAL
 ;设置规则标志位
 
 ;设置分组标志位
-custom_proxy_group=🔰 节点选择`select`[]✈️ 手动选择`[]✈️ 延迟最低`[]✈️ 故障切换`[]DIRECT
+custom_proxy_group=🔰 全球网址`select`[]✈️ 手动选择`[]✈️ 延迟最低`[]✈️ 故障切换`[]DIRECT
 custom_proxy_group=📲 电报吹水`select`[]🔰 节点选择`[]✈️ 手动选择`[]✈️ 延迟最低`[]✈️ 故障切换`(狮城|新)
 custom_proxy_group=📹 YouTube`select`[]🔰 节点选择`[]✈️ 手动选择`[]✈️ 延迟最低`[]✈️ 故障切换
 custom_proxy_group=🎥 NETFLIX`select`[]🔰 节点选择`[]✈️ 手动选择`[]✈️ 延迟最低`[]✈️ 故障切换`(NF|解锁)
